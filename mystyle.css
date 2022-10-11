@@ -1,0 +1,226 @@
+  *{
+                 box-sizing: border-box;
+            }
+            
+           body{
+                 margin: 0px;
+            }
+            
+           nav{
+                 background-color: blanchedalmond;         
+            }
+         
+           nav ul
+            {
+                      list-style: none;
+                      display: inline-flex;
+                      margin: 0px;
+            }
+            
+           nav li
+            {
+                      padding: 10px;
+                      padding-right: 15px;
+            }
+            
+            nav a
+            {
+            color: black;
+            text-decoration: none;
+            }
+            
+           nav li :hover
+           {
+               background-color: green;
+               border-left: 5px brown solid;
+               border-right: 5px brown solid;
+               padding: 5px;
+           }
+            
+           header h1
+           {
+           color: white;
+           font-size: 3rem;
+           }
+           
+           header
+           {
+               background-image: url('images/Orange.webp'),url('images/Orange.webp'),url('images/fruit/apple.jpg');
+               background-size: 5%,5%,cover;
+               background-repeat: no-repeat;
+               background-position: left bottom, right top,center;
+                   
+              height: 20vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+           }
+           
+           .menu
+           {
+               margin: 0px;
+               padding: 0px;
+           }
+           
+           .menu ul
+           {
+           list-style: none;
+           padding: 0px;
+           margin: 0px;
+           } 
+           
+           .menu li
+           {
+               margin-bottom: 0px;
+             /*  border: graytext 1px solid;*/
+               border-bottom: pink 5px solid;
+               border-radius: 5px;
+               padding: 15px;
+              /* background-color: greenyellow;*/
+           }
+           
+             .menu a
+             {
+                 text-decoration: none;
+                 color: red;
+             }
+             
+             .menu li:hover
+             {
+                 background-color: floralwhite;
+                 background-image: url('images/Orange.webp');
+                 background-repeat: no-repeat;
+                 background-size: 10%;
+                 background-position: 95%;
+                 cursor: pointer;             
+             }
+             
+             .menu li a:hover
+             {
+                   color: white;
+             }
+             
+             .menu video
+             {
+             margin: 10px;
+             width: 100%;
+             border-radius: 5px;
+             border: 3px yellowgreen solid;
+             padding: 8px;
+             /*box-shadow: 10px 10px 3px;*/
+             box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.2);
+             }
+             
+             .menu audio{
+               width: 50%;
+               border-radius: 5px;
+               border: 3px yellowgreen solid;
+               padding: 8px;
+               /*box-shadow: 10px 10px 3px;*/
+               box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.2);
+             }
+            
+             .conten{}
+             .conten p
+             {
+              text-align: justify;
+             }
+             
+             .conten iframe
+             {
+              width: 100%;
+              border-radius: 5px;
+              border: 3px yellowgreen solid;
+              padding: 8px;
+               /*box-shadow: 10px 10px 3px;*/
+              box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.2);
+             }
+             
+             
+             .conten #iframeyt{
+                 float: left;
+                 width: 33%;
+                 padding: 8px;
+             }
+             
+             .conten #iframefruit{
+                 float: left;
+                 height: 300vh;
+                 width: 66%;
+                 padding: 8px;
+             }
+             
+          .onsale{}
+          
+          .onsale img{
+             width: 100%;
+             border-radius: 50%;
+             border: 3px yellowgreen solid;
+             padding: 8px;
+             /*box-shadow: 10px 10px 3px;*/
+             box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.2);
+
+          }
+          
+          
+           
+            /*phone*/
+            
+            [class *='col-']
+            {
+                width: 100%;
+                float: left;
+                padding: 3vw;
+           
+            }
+            
+            /*tablet*/
+            
+            
+            @media only screen and (min-width:992px)
+            {
+                .col-m-1{width: 8.33%;}
+                .col-m-2{width:16.66%;}
+                .col-m-3{width: 25.00%;}
+                .col-m-4{width: 33.33%;}
+                .col-m-5{width: 41.66%;}
+                .col-m-6{width: 50.00%;}
+                .col-m-7{width: 58.33%;}
+                .col-m-8{width: 66.66%;}
+                .col-m-9{width: 75.00%;}
+                .col-m-10{width: 83.33%;}
+                .col-m-11{width: 91.66%;}
+                .col-m-12{width: 100.0%;}
+            }
+            
+            /*pc*/
+            
+            @media only screen and (min-width:1200px)
+            {
+                .col-1{width: 8.33%;}
+                .col-2{width:16.66%;}
+                .col-3{width: 25.00%;}
+                .col-4{width: 33.33%;}
+                .col-5{width: 41.66%;}
+                .col-6{width: 50.00%;}
+                .col-7{width: 58.33%;}
+                .col-8{width: 66.66%;}
+                .col-9{width: 75.00%;}
+                .col-10{width: 83.33%;}
+                .col-11{width: 91.66%;}
+                .col-12{width: 100.0%;}
+            }
+            
+           
+           footer{
+               position: fixed;
+               width: 100%;
+               left: 0px;
+               bottom: 0px;
+               padding: 8px;
+               background-color: gray;
+               color: green;
+               text-align: center;
+               
+           }
